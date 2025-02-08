@@ -83,10 +83,10 @@ a {
 .ACSection {
     padding: 100px 100px;
     background-color: #ffc02d;
-    
+
 }
 
-.ACSection h2{
+.ACSection h2 {
     font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
@@ -121,17 +121,17 @@ a {
 
 /* Contact Section */
 
-.contactMe{
+.contactMe {
     background-color: #ffc74f;
 }
 
-.contactMe label{
+.contactMe label {
     font-size: 20px;
     padding: 10px 0px;
-   
+
 }
 
-.contactMe input{
+.contactMe input {
     width: 100%;
     padding-top: 10px;
     background-color: #ffe58e;
@@ -139,7 +139,7 @@ a {
     border-bottom: 1px solid #000000;
 }
 
-.contactMe textarea{
+.contactMe textarea {
     width: 100%;
     padding-top: 10px;
     background-color: #ffe58e;
@@ -147,7 +147,7 @@ a {
     border-bottom: 1px solid #000000;
 }
 
-.contactMe button{
+.contactMe button {
     background-color: #e0a10c;
     border: 1px solid #000000;
     padding: 10px 20px;
@@ -159,16 +159,21 @@ a {
     transition: all 0.8s;
 }
 
-.contactMe button:hover{
+.contactMe button:hover {
     background-color: #000000;
     color: #fff;
     border-radius: 10px;
     transform: scale(1.05);
 }
 
+.row #myWork {
+    padding: 100px 50px;
+}
 
 
-.zoom{
+
+
+.zoom {
     overflow: hidden;
     border-radius: 10px;
     display: flex;
@@ -176,7 +181,7 @@ a {
     align-self: center;
 }
 
-.zoom img{
+.zoom img {
     object-fit: cover;
     transition: transform 0.5s;
     width: 100%;
@@ -184,20 +189,61 @@ a {
 }
 
 
-.zoom img:hover{
+.zoom img:hover {
     transform: scale(1.05);
 }
 
-.workRow{
+.workRow {
     padding: 100px 50px;
 }
 
-.fa-brands{
+.fa-brands {
     font-size: 50px;
     color: #e0a10c;
     transition: color 0.8s;
 }
 
-.fa-brands:hover{
+.fa-brands:hover {
     color: #975b01;
+}
+
+
+/* optomize for mobile Section */
+
+@media (max-width: 768px) {
+    .logoSection h1 {
+        font-size: 50px;
+    }
+
+    /* Contact Section */
+    .ACSection {
+        padding: 50px 50px;
+    }
+
+
+
+    .row #myWork {
+        padding: 100px 0px;
+    }
+
+
+}
+
+
+@media (max-width: 480px) {
+    .logoSection h1 {
+        font-size: 30px;
+    }
+
+    /* Contact Section */
+
+    .ACSection {
+        padding: 50px 50px;
+    }
+
+
+    .row #myWork {
+        padding: 100px 0px;
+    }
+
 }
