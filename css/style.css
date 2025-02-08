@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Jersey 10", serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-fluid {
+    background-color: #ffd05a;
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #975b01;
+}
+
+
+/* Navbar Section */
+
+.navBar {
+    height: auto;
+    border: 15px solid #ffcc54;
+}
+
+
+.navBar li {
+    display: inline-block;
+    padding-left: 25px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: #975b01;
+    font-size: 25px;
+    transition: color 0.8s;
+}
+
+
+.navBar a:hover {
+    color: #00053f;
+}
+
+
+
+/* Logo Section */
+
+
+.logoSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    background-image: url(../img/keyboard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.logoSection h1 {
+    font-size: 75px;
+    letter-spacing: 10px;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+
+/* About and Contact Section */
+
+
+
+.ACSection {
+    padding: 100px 100px;
+    background-color: #ffc02d;
+    
+}
+
+.ACSection h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.row .col-5 {
+    padding: 50px 0px;
+    border-radius: 10px;
+    color: #000000;
+    padding: 50px 50px;
+    text-align: left;
+}
+
+
+.aboutMe {
+    background-color: #e0a10c;
+
+}
+
+.aboutMeText h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.aboutMeText p {
+    font-size: 15px;
+    padding-bottom: 0px;
+}
+
+
+/* Contact Section */
+
+.contactMe{
+    background-color: #ffc74f;
+}
+
+.contactMe label{
+    font-size: 20px;
+    padding: 10px 0px;
+   
+}
+
+.contactMe input{
+    width: 100%;
+    padding-top: 10px;
+    background-color: #ffe58e;
+    border: 0px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.contactMe textarea{
+    width: 100%;
+    padding-top: 10px;
+    background-color: #ffe58e;
+    border: 0px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.contactMe button{
+    background-color: #e0a10c;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.8s;
+}
+
+.contactMe button:hover{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+    transform: scale(1.05);
+}
+
+
+
+.zoom{
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.zoom img{
+    object-fit: cover;
+    transition: transform 0.5s;
+    width: 100%;
+    height: 100%;
+}
+
+
+.zoom img:hover{
+    transform: scale(1.05);
+}
+
+.workRow{
+    padding: 100px 50px;
+}
+
+.fa-brands{
+    font-size: 50px;
+    color: #e0a10c;
+    transition: color 0.8s;
+}
+
+.fa-brands:hover{
+    color: #975b01;
+}
