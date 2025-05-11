@@ -16,8 +16,8 @@ const Contact = () => {
         <p className="text-xl leading-12 text-center capitalize">
           At this point I look forward to <br />
           learning from senior developers to further learn more about the
-          industry and possibly be mentored, and freelance work <br /> Either
-          way my inbox is always open, <br /> so drop by and say hi!
+          industry and possibly be mentored. <br /> My inbox is always open,
+          <br /> so drop by and say hi!
         </p>
       </article>
       <a href="mailto:samuel.n.echefu@gmail.com" className="flex ">

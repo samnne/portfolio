@@ -76,7 +76,7 @@ const codingLanguages = [
     },
     {
         "label": "Canva",
-        "icon": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F32329175-canva-icon-logo-symbol&psig=AOvVaw2jqEFeq7SWGFklhF6s6bV0&ust=1747027680704000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLjP57PXmo0DFQAAAAAdAAAAABAT"
+        "icon": "../src/assets/canva.svg"
     }
 ]
 
